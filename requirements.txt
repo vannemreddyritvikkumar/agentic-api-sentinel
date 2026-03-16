@@ -1,5 +1,5 @@
-langchain
 langgraph
-openai
-requests
+langchain-openai
+pyiso8583
 python-dotenv
+requests
