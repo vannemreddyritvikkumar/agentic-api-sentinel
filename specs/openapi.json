@@ -1,0 +1,20 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Vulnerable FinTech API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/v1/login": {
+      "post": { "summary": "User Login" }
+    },
+    "/api/v1/users/{userId}/profile": {
+      "get": {
+        "summary": "Get User Profile",
+        "parameters": [
+          { "name": "userId", "in": "path", "required": true, "schema": { "type": "string" } }
+        ]
+      }
+    }
+  }
+}
