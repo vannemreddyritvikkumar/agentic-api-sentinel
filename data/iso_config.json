@@ -1,0 +1,7 @@
+{
+  "MTI_Definitions": {
+    "0200": "Financial Transaction Request",
+    "0210": "Financial Transaction Response"
+  },
+  "Sensitive_Fields": ["2", "35", "45", "52"]
+}
